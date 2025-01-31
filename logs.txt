@@ -1,0 +1,20 @@
+FILE : /data/gait_re_id/imu_rel_pelvis
+Keypoint Settings: rel
+Augment = true (in train set)
+
+<File Settings>
+- imu_rel_pelvis : pelvis (0,0,0) <- 해당 좌표는 제외됨.
+
+<Keypoint Settings>
+rel:상대 좌표
+abs:절대 좌표
+
+<FFT Settings>
+"frequency", "magnitude"의 1 채널로 실험
+- transform에 "fft" 실험하는 경우에만 고려,
+- preprocessing.py 83-84 line 확인
+
+<Augment Settings>
+"with_aug" "without_aug"
+- main.py 422 line 확인
+

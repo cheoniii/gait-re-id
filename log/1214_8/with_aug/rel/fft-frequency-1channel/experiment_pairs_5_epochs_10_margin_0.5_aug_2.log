@@ -1,0 +1,60 @@
+/data/gait_re_id/imu_rel_pelvis
+None
+전체 pair 수: 4547
+positive pair 수: 757
+negative pair 수: 3790 
+
+easy
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+normal
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+hard
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+overall
+전체 pair 수: 3072
+positive pair 수: 192
+negative pair 수: 2880 
+
+Epoch [1/10], Loss: 0.0365
+Epoch [2/10], Loss: 0.0345
+Epoch [3/10], Loss: 0.0342
+Epoch [4/10], Loss: 0.0339
+Epoch [5/10], Loss: 0.0339
+Epoch [6/10], Loss: 0.0345
+Epoch [7/10], Loss: 0.0334
+Epoch [8/10], Loss: 0.0336
+Epoch [9/10], Loss: 0.0338
+Epoch [10/10], Loss: 0.0338
+Model weights saved.
+Data1 shape: torch.Size([22, 69, 50176]), Data2 shape: torch.Size([22, 69, 50176])
+
+Evaluating Overall Test Set:
+Optimal Threshold: 0.9999
+=== Binary Classification Metrics ===
+Overall AUC Score: 0.8410
+Overall F1 Score: 0.4444
+Overall Specificity: 0.8171
+Overall Sensitivity: 0.8235
+Overall Accuracy: 0.8177
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89       175
+         1.0       0.30      0.82      0.44        17
+
+    accuracy                           0.82       192
+   macro avg       0.64      0.82      0.67       192
+weighted avg       0.92      0.82      0.85       192
+
+
+Evaluating Easy Test Set:

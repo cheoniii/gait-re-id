@@ -1,0 +1,80 @@
+/data/gait_re_id/imu_rel_pelvis
+None
+전체 pair 수: 4547
+positive pair 수: 757
+negative pair 수: 3790 
+
+easy
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+normal
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+hard
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+overall
+전체 pair 수: 3072
+positive pair 수: 192
+negative pair 수: 2880 
+
+Epoch [1/30], Loss: 0.0365
+Epoch [2/30], Loss: 0.0345
+Epoch [3/30], Loss: 0.0342
+Epoch [4/30], Loss: 0.0339
+Epoch [5/30], Loss: 0.0339
+Epoch [6/30], Loss: 0.0345
+Epoch [7/30], Loss: 0.0334
+Epoch [8/30], Loss: 0.0336
+Epoch [9/30], Loss: 0.0338
+Epoch [10/30], Loss: 0.0338
+Epoch [11/30], Loss: 0.0337
+Epoch [12/30], Loss: 0.0338
+Epoch [13/30], Loss: 0.0340
+Epoch [14/30], Loss: 0.0336
+Epoch [15/30], Loss: 0.0335
+Epoch [16/30], Loss: 0.0336
+Epoch [17/30], Loss: 0.0335
+Epoch [18/30], Loss: 0.0338
+Epoch [19/30], Loss: 0.0333
+Epoch [20/30], Loss: 0.0329
+Epoch [21/30], Loss: 0.0333
+Epoch [22/30], Loss: 0.0333
+Epoch [23/30], Loss: 0.0329
+Epoch [24/30], Loss: 0.0326
+Epoch [25/30], Loss: 0.0327
+Epoch [26/30], Loss: 0.0329
+Epoch [27/30], Loss: 0.0325
+Epoch [28/30], Loss: 0.0326
+Epoch [29/30], Loss: 0.0328
+Epoch [30/30], Loss: 0.0327
+Model weights saved.
+Data1 shape: torch.Size([22, 69, 50176]), Data2 shape: torch.Size([22, 69, 50176])
+
+Evaluating Overall Test Set:
+Optimal Threshold: 0.9983
+=== Binary Classification Metrics ===
+Overall AUC Score: 0.8558
+Overall F1 Score: 0.4110
+Overall Specificity: 0.7657
+Overall Sensitivity: 0.8824
+Overall Accuracy: 0.7760
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.77      0.86       175
+         1.0       0.27      0.88      0.41        17
+
+    accuracy                           0.78       192
+   macro avg       0.63      0.82      0.64       192
+weighted avg       0.92      0.78      0.82       192
+
+
+Evaluating Easy Test Set:

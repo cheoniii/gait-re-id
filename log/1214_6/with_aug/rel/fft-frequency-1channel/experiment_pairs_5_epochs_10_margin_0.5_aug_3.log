@@ -1,0 +1,32 @@
+/data/gait_re_id/imu_rel_pelvis
+None
+전체 pair 수: 4547
+positive pair 수: 757
+negative pair 수: 3790 
+
+easy
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+normal
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+hard
+전체 pair 수: 1152
+positive pair 수: 192
+negative pair 수: 960 
+
+overall
+전체 pair 수: 3072
+positive pair 수: 192
+negative pair 수: 2880 
+
+Epoch [1/10], Loss: 0.0355
+Epoch [2/10], Loss: 0.0332
+Epoch [3/10], Loss: 0.0334
+Epoch [4/10], Loss: 0.0328
+Epoch [5/10], Loss: 0.0328
+Epoch [6/10], Loss: 0.0327
